@@ -1,0 +1,3 @@
+.wrapper {
+    @apply h-screen container mx-auto grid grid-cols-[275px,950px] justify-center;
+}

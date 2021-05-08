@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38716b11-ef19-4799-b11d-633b8ff9d3f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Container/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Bookmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Explore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/More.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navbar/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Sidebar/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Timeline/index.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Container.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="PostCSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -36,16 +51,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Icons" />
+    <property name="list.type.of.created.stylesheet" value="PostCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ozgur\Desktop\twitter-clone\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.css.dialects" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\pages" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Icons" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Timeline" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Sidebar" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Navbar" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -58,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620410119194</updated>
-      <workItem from="1620410122864" duration="2155000" />
+      <workItem from="1620410122864" duration="11859000" />
+      <workItem from="1620431572199" duration="8264000" />
     </task>
     <servers />
   </component>
@@ -75,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
