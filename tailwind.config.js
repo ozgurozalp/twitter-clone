@@ -14,6 +14,8 @@ module.exports = {
 					borderColor: '#38444d',
 					white: '#fff',
 					'menu-hover': 'rgba(29, 161, 242, 0.1)',
+					'btn-hover': '#1a91da',
+					'text-muted': 'rgb(136, 153, 166)',
 				},
 			},
 		},

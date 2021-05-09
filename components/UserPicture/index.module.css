@@ -1,0 +1,6 @@
+.img {
+    @apply  w-10 h-10;
+    & img {
+        @apply rounded-full object-cover max-w-full max-h-full;
+    }
+}

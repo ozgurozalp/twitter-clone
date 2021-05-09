@@ -1,24 +1,22 @@
 .menu {
-    @apply flex flex-col text-twitter-white font-bold;
-    & .item {
-        @apply flex flex-col p-1;
-        & > div:first-of-type {
-            @apply inline-flex items-center gap-x-[20px] rounded-full transition-colors p-3;
-            width: fit-content;
-        }
-
-        &:hover div{
-            @apply bg-twitter-menu-hover text-twitter-primary;
-        }
-        .icon {
-            width: 26px;
-            height: 26px;
-            background: transparent !important;
-        }
-        &:hover .icon svg {
-            @apply text-twitter-primary;
-        }
+    @apply flex flex-col text-twitter-white font-bold mb-6;
+}
+.item {
+    @apply flex flex-col py-1;
+    &:hover > .link {
+        @apply bg-twitter-menu-hover text-twitter-primary;
     }
 }
-
-
+.link {
+    @apply inline-flex items-center gap-x-[20px] rounded-full transition-colors p-3;
+    width: fit-content;
+    &.active {
+        @apply text-twitter-primary;
+    }
+}
+.iconContainer {
+    @apply w-[26px] h-[26px] bg-transparent;
+}
+.icon {
+    color: inherit;
+}

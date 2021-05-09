@@ -1,0 +1,9 @@
+.logo {
+    width: 46px;
+    height: 46px;
+    @apply flex items-center justify-center rounded-full hover:bg-twitter-menu-hover transition-colors mt-0.5;
+    & svg {
+        width: 46px;
+        height: 30px;
+    }
+}

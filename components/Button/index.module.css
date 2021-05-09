@@ -1,0 +1,28 @@
+.btn {
+    @apply
+        inline-flex
+        items-center
+        justify-center
+        bg-twitter-primary
+        font-bold
+        text-twitter-white
+        px-[33px]
+        py-[1px]
+        rounded-full
+        transition-colors
+        hover:bg-twitter-btn-hover
+    ;
+    outline: none !important;
+    font-size: 15px;
+
+    & span {
+        @apply
+            inline-flex
+            items-center
+            justify-center
+            px-[53px]
+            py-[13px];
+        line-height: 20px;
+    }
+
+}
