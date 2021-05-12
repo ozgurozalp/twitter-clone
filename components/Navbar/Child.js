@@ -1,16 +1,15 @@
-import styles from './index.module.css';
 import Link from 'next/link';
+import { IconButton } from '../Button';
 
-export default function Child({ path, name, icon: Icon, active = false }) {
+import styles from './index.module.css';
+
+export default function Child({ path, name, icon: Icon, active = undefined }) {
 	return (
 		<Link href={path}>
-			<a className={styles.item}>
-				<div className={`${styles.link} ${active ? styles.active : ''}`}>
-					<div className={styles.iconContainer}>
-						<Icon active={active ? active : undefined} className={styles.icon} />
-					</div>
-					<span className='mr-4 text-xl'>{name}</span>
-				</div>
+			<a className={`${styles.item} ${active ? styles.active : ''}`}>
+				<IconButton className={styles.link} icon={<Icon className={styles.icon} active={active} />}>
+					{name}
+				</IconButton>
 			</a>
 		</Link>
 	);

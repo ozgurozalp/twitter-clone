@@ -4,6 +4,7 @@
         items-center
         gap-x-3
         p-3
+        my-3
         transition-colors
         hover:bg-twitter-menu-hover
         rounded-full

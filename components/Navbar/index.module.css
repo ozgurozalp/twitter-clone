@@ -1,22 +1,19 @@
+.container {
+    @apply flex flex-col flex-1
+}
+
 .menu {
     @apply flex flex-col text-twitter-white font-bold mb-6;
 }
 .item {
     @apply flex flex-col py-1;
-    &:hover > .link {
+    &.active :is(.link, .icon)  {
+        @apply text-twitter-primary;
+    }
+    &:hover :is(.link, .icon){
         @apply bg-twitter-menu-hover text-twitter-primary;
     }
 }
-.link {
-    @apply inline-flex items-center gap-x-[20px] rounded-full transition-colors p-3;
-    width: fit-content;
-    &.active {
-        @apply text-twitter-primary;
-    }
-}
-.iconContainer {
-    @apply w-[26px] h-[26px] bg-transparent;
-}
-.icon {
-    color: inherit;
-}
+
+
+

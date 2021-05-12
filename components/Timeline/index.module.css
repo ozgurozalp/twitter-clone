@@ -1,3 +1,10 @@
 .timeline {
     @apply grid grid-cols-[600px,350px] gap-x-[40px];
 }
+
+.header {
+    @apply flex items-center justify-between pl-4 pr-[7px] h-[55px] border-b border-twitter-borderColor;
+}
+.pageTitle {
+    @apply inline-grid place-items-center font-extrabold m-0 text-xl;
+}

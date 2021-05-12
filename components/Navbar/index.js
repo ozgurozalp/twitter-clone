@@ -1,10 +1,14 @@
 import { useRouter } from 'next/router';
-import Logo from '../Logo';
-import { Explore, Home, Message, Notification, Bookmark, List, Profile, More } from '../Icons';
-import Button from '../Button';
-import styles from './index.module.css';
+import Link from 'next/link';
+
+import Button, { IconButton } from '../Button';
 import UserBox from '../UserBox';
+import Logo from '../Logo';
 import Child from './Child';
+
+import { Explore, Home, Message, Notification, Bookmark, List, Profile, More } from '../Icons';
+
+import styles from './index.module.css';
 
 const menu = [
 	{
@@ -60,22 +64,23 @@ const menu = [
 export default function Navbar() {
 	const router = useRouter();
 	return (
-		<aside className='px-3 pb-3 flex flex-col'>
-			<section>
-				<Logo />
-				<nav className={styles.menu}>
-					{menu.map(({ id, name, path, icon: Icon }) => (
-						<Child key={id} active={router.pathname === path} icon={Icon} name={name} path={path} />
-					))}
-				</nav>
-				<Button>Tweetle</Button>
+		<aside className={styles.container}>
+			<section className='h-full flex flex-col justify-between px-3'>
+				<div className='mb-4'>
+					<Logo />
+					<nav className={styles.menu}>
+						{menu.map(({ id, name, path, icon: Icon }) => (
+							<Child key={id} active={router.pathname === path} icon={Icon} name={name} path={path} />
+						))}
+					</nav>
+					<Button>Tweetle</Button>
+				</div>
+				<UserBox
+					username='@ozqurozalp'
+					fullName='Özgür 😋'
+					picture='https://pbs.twimg.com/profile_images/1361975835935318017/Oh3W_2CV_normal.jpg'
+				/>
 			</section>
-			<UserBox
-				className='mt-auto'
-				username='@ozqurozalp'
-				fullName='Özgür 😋'
-				picture='https://pbs.twimg.com/profile_images/1361975835935318017/Oh3W_2CV_normal.jpg'
-			/>
 		</aside>
 	);
 }

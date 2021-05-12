@@ -5,3 +5,7 @@
 body {
 	@apply bg-twitter-dark;
 }
+
+svg {
+	background: transparent !important;
+}

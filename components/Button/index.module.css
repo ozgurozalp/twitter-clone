@@ -24,5 +24,38 @@
             py-[13px];
         line-height: 20px;
     }
+}
 
+.btnIcon {
+    @apply
+        inline-flex
+        items-center
+        gap-x-5
+        self-start
+        min-w-[40px]
+        min-h-[40px]
+        rounded-full
+        transition-colors
+        focus:outline-none
+        hover:bg-twitter-menu-hover
+        p-3
+    ;
+    &.onlyIcon {
+        @apply justify-center self-auto p-0;
+        & .text {
+            @apply hidden;
+        }
+    }
+
+    & .icon {
+        @apply
+            inline-flex
+            items-center
+            justify-center
+            min-w-[26.25px] min-h-[26.25px];
+    }
+
+    & .text {
+        @apply text-xl font-bold mr-4;
+    }
 }

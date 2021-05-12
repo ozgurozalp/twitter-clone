@@ -1,4 +1,4 @@
-export default function More({ className = '', ...props }) {
+export default function More({ className = '', active = false, ...props }) {
 	return (
 		<svg viewBox='0 0 24 24' className={`fill-current text-twitter-white ${className}`} {...props}>
 			<g>
