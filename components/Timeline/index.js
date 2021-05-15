@@ -1,10 +1,10 @@
 import { Popular } from '../Icons';
 import { IconButton } from '../Button';
 import ShareTweet from '../ShareTweet';
-
-import styles from './index.module.css';
 import Space from '../Space';
 import Tweets from '../Tweets';
+
+import styles from './index.module.css';
 
 export default function Timeline() {
 	return (
@@ -16,7 +16,7 @@ export default function Timeline() {
 				</header>
 				<main className={styles.timeline}>
 					<ShareTweet />
-					<Space className='bg-twitter-secondary' />
+					<Space className={styles.space} />
 					<Tweets />
 				</main>
 			</div>

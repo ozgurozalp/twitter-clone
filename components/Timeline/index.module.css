@@ -20,3 +20,6 @@
 .icon {
     @apply w-[22.5px] h-[22.5px] text-twitter-primary;
 }
+.space {
+    @apply bg-twitter-secondary border-t border-b border-twitter-borderColor;
+}

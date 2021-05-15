@@ -1,5 +1,5 @@
 .container {
-    @apply flex px-4 pt-2 h-[124px] border-b border-twitter-borderColor;
+    @apply flex px-4 pt-2 h-[124px];
 }
 
 .picture {
