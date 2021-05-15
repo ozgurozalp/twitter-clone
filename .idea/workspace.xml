@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38716b11-ef19-4799-b11d-633b8ff9d3f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Icons/Popular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Button/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/More.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Logo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Logo/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar/Child.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/Child.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timeline/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Timeline/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timeline/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserBox/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserBox/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +92,10 @@
       <workItem from="1620507258239" duration="1408000" />
       <workItem from="1620561100539" duration="7737000" />
       <workItem from="1620568921693" duration="4037000" />
-      <workItem from="1620843685961" duration="17138000" />
+      <workItem from="1620843685961" duration="17157000" />
+      <workItem from="1620862598365" duration="394000" />
+      <workItem from="1621091836905" duration="312000" />
+      <workItem from="1621092165723" duration="41000" />
     </task>
     <servers />
   </component>
