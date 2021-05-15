@@ -1,10 +1,22 @@
-.timeline {
+.container {
     @apply grid grid-cols-[600px,350px] gap-x-[40px];
+    & > div:first-of-type {
+        @apply flex flex-col;
+    }
 }
-
+.timeline {
+    @apply border-r border-twitter-borderColor flex-1;
+}
 .header {
-    @apply flex items-center justify-between pl-4 pr-[7px] h-[55px] border-b border-twitter-borderColor;
+    @apply
+        flex items-center justify-between
+        pl-4
+        pr-[7px] h-[55px]
+        border-b border-r border-twitter-borderColor;
 }
 .pageTitle {
-    @apply inline-grid place-items-center font-extrabold m-0 text-xl;
+    @apply inline-grid place-items-center font-extrabold m-0 text-xl text-twitter-white;
+}
+.icon {
+    @apply w-[22.5px] h-[22.5px] text-twitter-primary;
 }

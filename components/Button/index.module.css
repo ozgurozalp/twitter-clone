@@ -1,28 +1,36 @@
 .btn {
+    font-size: 15px;
     @apply
-        inline-flex
+        flex
         items-center
         justify-center
-        bg-twitter-primary
+        py-2
+        px-[15px]
+        h-[40px]
+        border
+        border-transparent
         font-bold
+        select-none
+        bg-twitter-primary
         text-twitter-white
-        px-[33px]
-        py-[1px]
         rounded-full
         transition-colors
         hover:bg-twitter-btn-hover
-    ;
-    outline: none !important;
-    font-size: 15px;
+        focus:outline-none;
 
+    &.big {
+        @apply h-[48px] py-3.5 px-[92px];
+    }
+
+    &:disabled {
+        @apply pointer-events-none opacity-50;
+    }
     & span {
-        @apply
-            inline-flex
-            items-center
-            justify-center
-            px-[53px]
-            py-[13px];
         line-height: 20px;
+        @apply
+            flex
+            items-center
+            justify-center;
     }
 }
 
@@ -32,8 +40,8 @@
         items-center
         gap-x-5
         self-start
-        min-w-[40px]
-        min-h-[40px]
+        min-w-[38px]
+        min-h-[38px]
         rounded-full
         transition-colors
         focus:outline-none

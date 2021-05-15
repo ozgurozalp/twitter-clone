@@ -10,6 +10,7 @@ module.exports = {
 			colors: {
 				twitter: {
 					dark: '#16212c',
+					secondary: 'rgb(25,39,52)',
 					primary: '#1da1f2',
 					borderColor: '#38444d',
 					white: '#fff',

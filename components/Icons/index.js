@@ -9,3 +9,8 @@ export { default as More } from './More';
 export { default as Logo } from './Logo';
 export { default as Ellipsis } from './Ellipsis';
 export { default as Popular } from './Popular';
+export { default as Emoji } from './Emoji';
+export { default as Gif } from './Gif';
+export { default as Media } from './Media';
+export { default as Poll } from './Poll';
+export { default as Schedule } from './Schedule';

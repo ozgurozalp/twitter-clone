@@ -1,16 +1,23 @@
 .container {
-    @apply flex flex-col flex-1
+    @apply flex flex-col flex-1 border-r border-twitter-borderColor;
+    & section {
+        @apply h-full flex flex-col justify-between px-3;
+        & > div:first-of-type {
+            @apply mb-4;
+        }
+    }
 }
 
 .menu {
     @apply flex flex-col text-twitter-white font-bold mb-6;
 }
+
 .item {
     @apply flex flex-col py-1;
-    &.active :is(.link, .icon)  {
+    &.active :is(.link, .icon) {
         @apply text-twitter-primary;
     }
-    &:hover :is(.link, .icon){
+    &:hover :is(.link, .icon) {
         @apply bg-twitter-menu-hover text-twitter-primary;
     }
 }

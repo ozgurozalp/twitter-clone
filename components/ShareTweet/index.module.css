@@ -1,0 +1,49 @@
+.container {
+    @apply flex px-4 pt-2 h-[124px] border-b border-twitter-borderColor;
+}
+
+.picture {
+    @apply w-12 h-12 cursor-pointer mr-3 relative;
+    &:after {
+        content: '';
+        @apply absolute inset-0 transition-colors duration-300 rounded-full;
+    }
+    &:hover:after {
+        @apply bg-[#1a1a1a26];
+    }
+}
+
+.tweet {
+    @apply flex-1 flex flex-col;
+    & div:nth-child(1) {
+        @apply h-[56px];
+        & textarea {
+            @apply
+                bg-transparent
+                resize-none
+                w-full
+                h-full
+                mt-[3px]
+                pt-3
+                focus:outline-none
+                text-xl text-twitter-white;
+        }
+    }
+    & div:nth-child(2) {
+        @apply flex justify-between items-end h-[52px] ml-0.5;
+    }
+}
+
+.tweetBtn {
+    @apply ml-auto;
+}
+
+.icon {
+    &:nth-child(1) {
+        @apply -ml-2
+    }
+    & svg {
+        @apply w-[22.5px] h-[22.5px] text-twitter-primary;
+    }
+}
+

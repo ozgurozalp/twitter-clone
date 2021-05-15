@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 
-import Button, { IconButton } from '../Button';
+import Button from '../Button';
 import UserBox from '../UserBox';
 import Logo from '../Logo';
 import Child from './Child';
@@ -13,49 +12,49 @@ import styles from './index.module.css';
 const menu = [
 	{
 		id: 1,
-		name: 'Anasayfa',
+		name: 'Home',
 		path: '/',
 		icon: Home,
 	},
 	{
 		id: 2,
-		name: 'Keşfet',
+		name: 'Explore',
 		path: '/explore',
 		icon: Explore,
 	},
 	{
 		id: 3,
-		name: 'Bildirimler',
+		name: 'Notifications',
 		path: '/notifications',
 		icon: Notification,
 	},
 	{
 		id: 4,
-		name: 'Mesajlar',
+		name: 'Messages',
 		path: '/messages',
 		icon: Message,
 	},
 	{
 		id: 5,
-		name: 'Yer İşaretleri',
+		name: 'Bookmarks',
 		path: '/bookmarks',
 		icon: Bookmark,
 	},
 	{
 		id: 6,
-		name: 'Listeler',
+		name: 'Lists',
 		path: '/lists',
 		icon: List,
 	},
 	{
 		id: 7,
-		name: 'Profil',
+		name: 'Profile',
 		path: '/me',
 		icon: Profile,
 	},
 	{
 		id: 8,
-		name: 'Daha fazla',
+		name: 'More',
 		path: '/more',
 		icon: More,
 	},
@@ -65,15 +64,15 @@ export default function Navbar() {
 	const router = useRouter();
 	return (
 		<aside className={styles.container}>
-			<section className='h-full flex flex-col justify-between px-3'>
-				<div className='mb-4'>
+			<section>
+				<div>
 					<Logo />
 					<nav className={styles.menu}>
 						{menu.map(({ id, name, path, icon: Icon }) => (
 							<Child key={id} active={router.pathname === path} icon={Icon} name={name} path={path} />
 						))}
 					</nav>
-					<Button>Tweetle</Button>
+					<Button big>Tweet</Button>
 				</div>
 				<UserBox
 					username='@ozqurozalp'

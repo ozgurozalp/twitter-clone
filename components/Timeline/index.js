@@ -1,20 +1,25 @@
-import Sidebar from '../Sidebar';
-import { Home, Popular } from '../Icons';
-import Button, { IconButton } from '../Button';
+import { Popular } from '../Icons';
+import { IconButton } from '../Button';
+import ShareTweet from '../ShareTweet';
 
 import styles from './index.module.css';
+import Space from '../Space';
+import Tweets from '../Tweets';
 
 export default function Timeline() {
 	return (
-		<section className={`${styles.timeline}`}>
-			<main className='border-r border-l border-twitter-borderColor text-twitter-white text-2xl'>
+		<section className={styles.container}>
+			<div>
 				<header className={styles.header}>
-					<h3 className={styles.pageTitle}>
-						<span>Anasayfa</span>
-					</h3>
-					<IconButton icon={<Popular className='w-[22.5px] h-[22.5px] text-twitter-primary' />} />
+					<h3 className={styles.pageTitle}>Home</h3>
+					<IconButton icon={<Popular className={styles.icon} />} />
 				</header>
-			</main>
+				<main className={styles.timeline}>
+					<ShareTweet />
+					<Space className='bg-twitter-secondary' />
+					<Tweets />
+				</main>
+			</div>
 		</section>
 	);
 }

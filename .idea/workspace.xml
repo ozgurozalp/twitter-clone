@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="38716b11-ef19-4799-b11d-633b8ff9d3f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Emoji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Gif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Poll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ShareTweet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ShareTweet/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Space/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tweets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Tweets/index.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Container/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timeline/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Timeline/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timeline/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserPicture/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserPicture/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +63,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="list.type.of.created.stylesheet" value="PostCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ozgur\Desktop\twitter-clone\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components" />
       <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Icons" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\ShareTweet" />
       <recent name="C:\Users\ozgur\Desktop\twitter-clone\pages" />
       <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\UserPicture" />
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\UserBox" />
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Button" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,7 +118,7 @@
       <workItem from="1620843685961" duration="17157000" />
       <workItem from="1620862598365" duration="394000" />
       <workItem from="1621091836905" duration="312000" />
-      <workItem from="1621092165723" duration="41000" />
+      <workItem from="1621092165723" duration="13750000" />
     </task>
     <servers />
   </component>
