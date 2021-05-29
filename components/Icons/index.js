@@ -14,3 +14,6 @@ export { default as Gif } from './Gif';
 export { default as Media } from './Media';
 export { default as Poll } from './Poll';
 export { default as Schedule } from './Schedule';
+export { default as Search } from './Search';
+export { default as Cog } from './Cog';
+export { default as Verified } from './Verified';

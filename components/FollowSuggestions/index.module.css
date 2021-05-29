@@ -1,0 +1,55 @@
+.container {
+    @apply flex flex-col bg-twitter-secondary rounded-2xl h-auto text-twitter-white
+
+}
+.header {
+    @apply flex items-center justify-between rounded-t-2xl py-3 h-[49px] px-4 font-extrabold text-xl border-b border-twitter-borderColor;
+    svg {
+        @apply text-twitter-primary h-[22.5px] w-[22.5px];
+    }
+}
+
+.footer {
+    font-size: 15px;
+    @apply mt-auto rounded-b-2xl p-4 h-[52px] cursor-pointer text-twitter-primary transition-colors hover:bg-twitter-trend-hover;
+}
+
+.item {
+    @apply flex justify-between items-center border-b border-twitter-borderColor  py-3 px-4 cursor-pointer transition-colors hover:bg-twitter-trend-hover;
+}
+
+.user {
+    @apply flex gap-x-3;
+
+}
+
+.details {
+    font-size: 15px;
+    @apply flex flex-col gap-0;
+}
+
+.name {
+    @apply font-bold flex items-center gap-[1px];
+}
+.username {
+    @apply text-twitter-text-muted;
+}
+
+.picture {
+    @apply w-12 h-12 relative;
+    &:after {
+        content: '';
+        @apply absolute inset-0 transition-colors duration-300 rounded-full;
+    }
+    &:hover:after {
+        @apply bg-[#1a1a1a26];
+    }
+}
+
+.action {
+
+}
+
+.verified {
+    @apply w-[18.75px] h-[18.75px] mt-[1px];
+}

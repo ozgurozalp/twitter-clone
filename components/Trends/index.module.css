@@ -1,0 +1,44 @@
+.container {
+    @apply flex flex-col bg-twitter-secondary rounded-2xl h-auto text-twitter-white
+
+}
+.header {
+    @apply flex items-center justify-between rounded-t-2xl py-3 h-[49px] px-4 font-extrabold text-xl border-b border-twitter-borderColor;
+    svg {
+        @apply text-twitter-primary h-[22.5px] w-[22.5px];
+    }
+}
+
+.footer {
+    font-size: 15px;
+    @apply mt-auto rounded-b-2xl p-4 h-[52px] cursor-pointer text-twitter-primary transition-colors hover:bg-twitter-trend-hover;
+}
+
+.item {
+    @apply flex justify-between py-3 px-4 border-b border-twitter-borderColor cursor-pointer transition-colors hover:bg-twitter-trend-hover;
+}
+
+.details {
+    @apply flex flex-col;
+}
+
+.type, .count{
+    font-size: 13px;
+    @apply text-twitter-text-muted
+}
+
+.name {
+    font-size: 15px;
+    @apply text-twitter-white font-bold;
+}
+
+.button {
+    align-self: flex-start !important;
+    @apply min-w-[34.75px] min-h-[34.75px] !important;
+    &:hover svg {
+        @apply text-twitter-primary;
+    }
+}
+.icon {
+    @apply h-[18.75px] w-[18.75px] text-twitter-text-muted;
+}

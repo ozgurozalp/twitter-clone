@@ -1,0 +1,28 @@
+.container {
+    @apply pt-[5px] h-[53px];
+    form {
+        @apply grid grid-cols-[46px,1fr] grid-rows-[46px] border border-transparent bg-twitter-search transition-colors rounded-full block w-full;
+        &:focus-within {
+            @apply border-twitter-primary bg-twitter-dark;
+            svg {
+                @apply text-twitter-primary;
+            }
+        }
+    }
+}
+.icon {
+    @apply grid place-items-center;
+    svg {
+        @apply transition-colors text-twitter-text-muted w-11 h-[18.75px] pl-3;
+    }
+}
+.input {
+    input {
+        font-size: 15px;
+        @apply bg-transparent w-full h-full rounded-full  focus:outline-none text-twitter-white p-3 font-normal;
+    }
+}
+
+/*
+absolute transform left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2
+*/

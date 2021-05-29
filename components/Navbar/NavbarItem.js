@@ -3,7 +3,7 @@ import { IconButton } from '../Button';
 
 import styles from './index.module.css';
 
-export default function Child({ path, name, icon: Icon, active = undefined }) {
+export default function NavbarItem({ path, name, icon: Icon, active = undefined }) {
 	return (
 		<Link href={path}>
 			<a className={`${styles.item} ${active ? styles.active : ''}`}>

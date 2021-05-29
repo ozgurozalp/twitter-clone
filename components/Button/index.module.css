@@ -67,3 +67,9 @@
         @apply text-xl font-bold mr-4;
     }
 }
+
+
+.outlinedBtn {
+    font-size: 15px;
+    @apply font-bold ml-3 text-twitter-primary rounded-full border border-twitter-primary h-8 px-[15px] transition-colors hover:bg-twitter-menu-hover;
+}

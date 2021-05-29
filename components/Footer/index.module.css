@@ -1,0 +1,13 @@
+.footer {
+    font-size: 13px;
+    @apply border-t-2 border-twitter-secondary py-4 flex flex-wrap text-twitter-text-muted gap-x-3 gap-y-1 px-4;
+    & div:not(:last-child) {
+        @apply hover:underline cursor-pointer;
+    }
+}
+.more {
+    @apply flex items-center gap-x-[1px];
+}
+.icon {
+    @apply w-[17px] h-[13px] mt-1 text-twitter-text-muted ;
+}

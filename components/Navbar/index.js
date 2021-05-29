@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import Button from '../Button';
 import UserBox from '../UserBox';
 import Logo from '../Logo';
-import Child from './Child';
+import NavbarItem from './NavbarItem';
 
 import { Explore, Home, Message, Notification, Bookmark, List, Profile, More } from '../Icons';
 
@@ -69,7 +69,7 @@ export default function Navbar() {
 					<Logo />
 					<nav className={styles.menu}>
 						{menu.map(({ id, name, path, icon: Icon }) => (
-							<Child key={id} active={router.pathname === path} icon={Icon} name={name} path={path} />
+							<NavbarItem key={id} active={router.pathname === path} icon={Icon} name={name} path={path} />
 						))}
 					</nav>
 					<Button big>Tweet</Button>

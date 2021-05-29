@@ -1,5 +1,5 @@
 .container {
-    @apply grid grid-cols-[600px,350px] gap-x-[40px];
+    @apply grid grid-cols-[600px,350px] gap-x-[30px];
     & > div:first-of-type {
         @apply flex flex-col;
     }
@@ -19,7 +19,4 @@
 }
 .icon {
     @apply w-[22.5px] h-[22.5px] text-twitter-primary;
-}
-.space {
-    @apply bg-twitter-secondary border-t border-b border-twitter-borderColor;
 }

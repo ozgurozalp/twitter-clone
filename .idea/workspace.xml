@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38716b11-ef19-4799-b11d-633b8ff9d3f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/FollowSuggestions/SuggestionItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FollowSuggestions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FollowSuggestions/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Footer/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Cog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Icons/Verified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SearchForm/index.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Trends/TrendItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Trends/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Trends/index.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Button/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Button/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/Child.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/NavbarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ShareTweet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ShareTweet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/ShareTweet/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/ShareTweet/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Sidebar/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Sidebar/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Space/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Timeline/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timeline/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Timeline/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Timeline/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Tweets/index.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Tweets/index.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Footer" />
     <property name="list.type.of.created.stylesheet" value="PostCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ozgur\Desktop\twitter-clone\node_modules\prettier" />
@@ -55,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Footer" />
       <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Icons" />
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\ShareTweet" />
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\pages" />
-      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\UserPicture" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\FollowSuggestions" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components" />
+      <recent name="C:\Users\ozgur\Desktop\twitter-clone\components\Trends" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,7 +122,8 @@
       <workItem from="1620843685961" duration="17157000" />
       <workItem from="1620862598365" duration="394000" />
       <workItem from="1621091836905" duration="312000" />
-      <workItem from="1621092165723" duration="14388000" />
+      <workItem from="1621092165723" duration="14421000" />
+      <workItem from="1622233022419" duration="15763000" />
     </task>
     <servers />
   </component>

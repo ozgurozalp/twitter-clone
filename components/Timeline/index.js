@@ -1,10 +1,11 @@
 import { Popular } from '../Icons';
 import { IconButton } from '../Button';
 import ShareTweet from '../ShareTweet';
-import Space from '../Space';
 import Tweets from '../Tweets';
 
 import styles from './index.module.css';
+import SearchForm from '../SearchForm';
+import Sidebar from '../Sidebar';
 
 export default function Timeline() {
 	return (
@@ -16,10 +17,10 @@ export default function Timeline() {
 				</header>
 				<main className={styles.timeline}>
 					<ShareTweet />
-					<Space className={styles.space} />
 					<Tweets />
 				</main>
 			</div>
+			<Sidebar />
 		</section>
 	);
 }

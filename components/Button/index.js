@@ -16,3 +16,11 @@ export function IconButton({ className = '', icon, children = null, ...props }) 
 		</button>
 	);
 }
+
+export function OutlinedButton({ className = '', children = null, ...props }) {
+	return (
+		<button className={`${styles.outlinedBtn} ${className}`} {...props}>
+			{children && <span className={styles.text}>{children}</span>}
+		</button>
+	);
+}
