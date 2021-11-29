@@ -8,7 +8,7 @@ export default function ShareTweet() {
 		<>
 			<div className={styles.container}>
 				<UserPicture
-					src='https://pbs.twimg.com/profile_images/1361975835935318017/Oh3W_2CV_normal.jpg'
+					src='https://pbs.twimg.com/profile_images/1397687904332308483/qvVnr6Sm_normal.jpg'
 					alt='Özgür ÖZALP'
 					className={styles.picture}
 				/>
