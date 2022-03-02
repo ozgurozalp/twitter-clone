@@ -3,14 +3,11 @@
 @tailwind utilities;
 
 html {
-	block-size: 100%;
-	inline-size: 100%;
+	@apply h-screen;
 }
 
 body {
-	min-block-size: 100%;
-	min-inline-size: 100%;
-	@apply bg-twitter-dark;
+	@apply h-screen bg-twitter-dark;
 }
 
 svg {

@@ -77,7 +77,7 @@ export default function Navbar() {
 				<UserBox
 					username='@ozqurozalp'
 					fullName='Özgür 😋'
-					picture='https://pbs.twimg.com/profile_images/1397687904332308483/qvVnr6Sm_normal.jpg'
+					picture='https://pbs.twimg.com/profile_images/1491909406006685703/3fL0jRYy_normal.jpg'
 				/>
 			</section>
 		</aside>
